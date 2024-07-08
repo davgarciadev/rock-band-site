@@ -1,0 +1,36 @@
+.hero{
+    height: 900px;
+    max-height: 100vh;
+    box-shadow: 4px 0px 20px rgb(0, 0, 0);
+
+    .container{
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 0px 0px 200px  150px rgb(0, 0, 0);
+
+        
+
+    }
+
+    &__video{
+       position: absolute;
+       width: auto;
+       height: auto;
+       min-height: 100%;
+       max-width: 100%;
+       top: 0;
+       left: 0;
+       z-index: -1;
+    
+       
+    }
+
+    &__subtitle{
+        display: none;
+        font-size: 2rem;
+    }
+
+   
+    
+}

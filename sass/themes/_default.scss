@@ -1,0 +1,37 @@
+html * {
+    font-family: $roboto-font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    overflow-x: hidden;
+} 
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h1,h2,h3,h4,h5,a{
+    font-family: $playfair-font;
+    color: white;
+}
+
+p,span{
+    font-family: $montserrat-font;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+button{
+    width: fit-content;
+}

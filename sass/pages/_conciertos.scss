@@ -1,0 +1,27 @@
+.conciertos{
+
+    padding: 160px;
+    
+
+    .container-conciertos{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        
+    }
+
+    &__title{
+
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__btn{
+
+        margin: auto;
+
+    }
+}

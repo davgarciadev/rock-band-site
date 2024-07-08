@@ -1,0 +1,52 @@
+
+.albums{
+    border: 1px solid pink;
+    background-color: rgb(22, 22, 22);
+    padding: 100px 0;
+
+   
+    &__title{
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__all-albums{
+        display: flex;
+       
+        gap: 20px;
+        
+        
+    }
+
+    &__album-single{
+        border: 2px solid gray;
+       
+        &:hover{
+
+            box-shadow: 0 0 10px rgb(255, 68, 68);
+        }
+    }
+
+}
+
+@media (width < 1000px) {
+    .albums{
+        &__all-albums{
+            padding: 0px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+}
+
+@media (width < 600px) {
+    .albums{
+        &__all-albums{
+           display: flex;
+           flex-direction: column;
+        }
+    }
+}
