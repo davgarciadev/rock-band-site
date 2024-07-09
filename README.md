@@ -19,8 +19,10 @@ La web es completamente responsive y utiliza la metodología BEM (Block Element 
 
 ¡Aquí tienes un vistazo rápido a lo que encontrarás en este sitio!
 
+
 ### Home
-![Home](https://via.placeholder.com/600x400.png?text=Home+Screenshot)
+
+ <img src="https://github.com/davgarciadev/rock-band-site/assets/174006710/d68fe5ec-79d7-4af3-a7e3-f43961d2ca78" alt="Home_Section" width="600">
 
 ### Videos
 ![Videos](https://via.placeholder.com/600x400.png?text=Videos+Screenshot)
