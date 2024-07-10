@@ -1,8 +1,7 @@
 .conciertos{
-
-    padding: 160px;
-    
-
+    border-bottom: 2px solid gray;
+    padding: 160px 0;
+  
     .container-conciertos{
 
         display: flex;
@@ -23,5 +22,12 @@
 
         margin: auto;
 
+    }
+}
+
+@media (width < 500px) {
+
+    .conciertos__btn{
+        font-size: 1.6rem;
     }
 }

@@ -5,7 +5,7 @@
     max-height: 900px;
     position: relative;
     padding: 320px 0px;
-
+    border-bottom: 2px solid gray;
 
     &::before{
         content: "";
@@ -25,10 +25,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 40px 0;
 
     }
 
     &__header{
+       
         width: 100%;
         text-align: center;
         background-color: rgba(100, 100, 100, 0.233);
@@ -47,12 +49,33 @@
         width: 500px;
         height: 500px;
         border: 2px solid $red-color;
-        margin-top: 150px;
+        
         
     }
 
     &__btn{
         margin-top: 40px;
+    }
+
+
+    @media  screen and (width < 600px) {
+        .album{
+            &__img{
+                margin-top: 40px;
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+
+    @media  screen and (width < 400px) {
+        .album{
+            &__img{
+                margin-top: 40px;
+                width: 200px;
+                height: 200px;
+            }
+        }
     }
 
 

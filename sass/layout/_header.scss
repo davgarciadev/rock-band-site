@@ -8,7 +8,7 @@
     backdrop-filter: blur(2px);
     box-shadow: 2px 0px 10px rgba(29, 0, 0, 0.637);
     z-index: 10;
-  
+    
     
 
     &__sticky{
@@ -18,7 +18,7 @@
         .container{
             display: flex;
             justify-content: space-between;
-            padding-left: 100px;
+            
         }
 
         &-correo{
@@ -64,7 +64,7 @@
             justify-content: space-between;
         }
         &-logo{
-            width: 350px;
+            width: 160px;
             cursor: pointer;
 
             &:hover{
@@ -132,6 +132,13 @@
                         display: flex;
                         height: 50vh;
                     }
+                }
+
+                &-burger{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    
                 }
 
 
